@@ -1,2 +1,2 @@
 # Lambdas
-Various lambda functions
+Various lambda functions written in Python
