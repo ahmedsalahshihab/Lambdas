@@ -70,4 +70,4 @@ def lambda_handler(event, context):
     s3client.upload_file(thumbnail_image.name, DESTINATION_BUCKET_NAME, dest_key)
 
 if __name__ == '__main__':
-	lambda_handler('123', '123')
+	lambda_handler('1234', '1234')
