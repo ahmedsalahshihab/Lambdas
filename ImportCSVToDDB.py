@@ -84,4 +84,3 @@ table = dynamodb.Table('MyMovies')
 with table.batch_writer() as batch:
 	for item in items:
 		batch.put_item(Item=item)
-
